@@ -1,518 +1,585 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="modinatheme">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="modinatheme" />
     <!-- ======== Page title ============ -->
     <title>Club Robotique FSR</title>
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
     <!-- ===========  All Stylesheet ================= -->
     <!--  Icon css plugins -->
-    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/icons.css" />
     <!--  animate css plugins -->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/animate.css" />
     <!--  magnific-popup css plugins -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
     <!--  owl carosuel css plugins -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
     <!-- metis menu css file -->
-    <link rel="stylesheet" href="assets/css/metismenu.css">
+    <link rel="stylesheet" href="assets/css/metismenu.css" />
     <!--  owl theme css plugins -->
-    <link rel="stylesheet" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css" />
     <!--  Bootstrap css plugins -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--  main style css file -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- template main style css file -->
-    <link rel="stylesheet" href="style.css">
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KHF3CZWYNH">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <link rel="stylesheet" href="style.css" />
 
-  gtag('config', 'G-KHF3CZWYNH');
-</script>
-</head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KHF3CZWYNH"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<body class="body-wrapper">
+      gtag("config", "G-KHF3CZWYNH");
+    </script>
+  </head>
+
+  <body class="body-wrapper">
     <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="spinner">
-            </div>
-            <div class="txt-loading">
-                <span data-text-preloader="R" class="letters-loading">
-                    R
-                </span>
-                <span data-text-preloader="O" class="letters-loading">
-                    O
-                </span>
-                <span data-text-preloader="B" class="letters-loading">
-                    B
-                </span>
-                <span data-text-preloader="O" class="letters-loading">
-                    O
-                </span>
-                <span data-text-preloader="T" class="letters-loading">
-                    T
-                </span>
-                <span data-text-preloader="I" class="letters-loading">
-                    I
-                </span>
-                <span data-text-preloader="Q" class="letters-loading">
-                    Q
-                </span>
-                <span data-text-preloader="U" class="letters-loading">
-                    U
-                </span>
-                <span data-text-preloader="E" class="letters-loading">
-                    E
-                </span>
-                <span data-text-preloader="  " class="letters-loading">
-
-                </span>
-                <span data-text-preloader="F" class="letters-loading">
-                    F
-                </span>
-                <span data-text-preloader="S" class="letters-loading">
-                    S
-                </span>
-                <span data-text-preloader="R" class="letters-loading">
-                    R
-                </span>
-            </div>
-            <p class="text-center">Loading</p>
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text-preloader="R" class="letters-loading"> R </span>
+          <span data-text-preloader="O" class="letters-loading"> O </span>
+          <span data-text-preloader="B" class="letters-loading"> B </span>
+          <span data-text-preloader="O" class="letters-loading"> O </span>
+          <span data-text-preloader="T" class="letters-loading"> T </span>
+          <span data-text-preloader="I" class="letters-loading"> I </span>
+          <span data-text-preloader="Q" class="letters-loading"> Q </span>
+          <span data-text-preloader="U" class="letters-loading"> U </span>
+          <span data-text-preloader="E" class="letters-loading"> E </span>
+          <span data-text-preloader="  " class="letters-loading"> </span>
+          <span data-text-preloader="F" class="letters-loading"> F </span>
+          <span data-text-preloader="S" class="letters-loading"> S </span>
+          <span data-text-preloader="R" class="letters-loading"> R </span>
         </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-            </div>
+        <p class="text-center">Loading</p>
+      </div>
+      <div class="loader">
+        <div class="row">
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- welcome content start from here -->
 
     <header class="header-wrap header-2">
-        <div class="top-header d-none d-md-block">
-            <div class="container-flud">
-                <div class="row">
-                    <div class="col-md-7 pr-md-0 col-12">
-                        <div class="header-cta">
-                            <ul>
-                                <li>
-                                    <a href="mailto:fsr.robotique@gmail.com
-                                  "><i class="fal fa-envelope"></i> fsr.robotique@gmail.com
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="tel:+212645824844"><i class="fal fa-phone"></i> 06 45 82 48 44</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-5 col-12">
-                        <div class="header-right-cta d-flex justify-content-end">
-                            <div class="social-profile mr-30">
-                                <a href="https://www.facebook.com/RobotiqueFSR"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/robotique.fsr/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/company/42950380/"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://www.youtube.com/channel/UCcb76rDoDUu5DBz-1CPXKUA"><i
-                                        class="fab fa-youtube"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+      <div class="top-header d-none d-md-block">
+        <div class="container-flud">
+          <div class="row">
+            <div class="col-md-7 pr-md-0 col-12">
+              <div class="header-cta">
+                <ul>
+                  <li>
+                    <a
+                      href="mailto:fsr.robotique@gmail.com
+                                  "
+                      ><i class="fal fa-envelope"></i> fsr.robotique@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+212645824844"
+                      ><i class="fal fa-phone"></i> 06 45 82 48 44</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-
-        <div class="main-header-wraper">
-            <div class="container-fluid">
-                <div class="row align-items-center justify-content-between">
-                    <div class="header-logo">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img src="https://robotiquefsr.com/assets/img/t7.png" alt="logo" width="90" height="60">
-                            </a>
-                        </div>
-
-                    </div>
-                    <div class="header-menu d-none d-xl-block">
-                        <div class="main-menu">
-                            <ul>
-                                <li><a href="index.html">Home</a> </li>
-                                <li><a href="robotleague.html">RobotLeague</a></li>
-                                <li><a href="clr2024.html">CLR 2024</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="header-right d-flex align-items-center">
-                        <div class="header-btn-cta">
-                            <a href="contact.html" class="theme-btn">Contact Us <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                        <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
-                            <div class="mobile-nav-wrap">
-                                <div id="hamburger">
-                                    <i class="fal fa-bars"></i>
-                                </div>
-                                <!-- mobile menu - responsive menu  -->
-                                <div class="mobile-nav">
-                                    <button type="button" class="close-nav">
-                                        <i class="fal fa-times-circle"></i>
-                                    </button>
-                                    <nav class="sidebar-nav">
-                                        <ul class="metismenu" id="mobile-menu">
-                                            <li><a href="index.html">Home</a> </li>
-                                            <li><a href="robotleague.html">RobotLeague</a></li>
-                                            <li><a href="clr2024.html">CLR 2024</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-
-                                    <div class="action-bar">
-                                        <a href="mailto:fsr.robotique@gmail.com
-                                  "><i class="fal fa-envelope"></i> fsr.robotique@gmail.com</a>
-                                        <a href="tel:+212645824844"><i class="fal fa-phone"></i> 06 45 82 48 44</a>
-                                        <a href="contact.html" class="d-btn theme-btn black">Contact Us</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="overlay"></div>
-                        </div>
-                    </div>
+            <div class="col-md-5 col-12">
+              <div class="header-right-cta d-flex justify-content-end">
+                <div class="social-profile mr-30">
+                  <a href="https://www.facebook.com/RobotiqueFSR"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://www.instagram.com/robotique.fsr/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://www.linkedin.com/company/42950380/"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://www.youtube.com/channel/UCcb76rDoDUu5DBz-1CPXKUA"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="main-header-wraper">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-between">
+            <div class="header-logo">
+              <div class="logo">
+                <a href="index.html">
+                  <img
+                    src="https://robotiquefsr.com/assets/img/t7.png"
+                    alt="logo"
+                    width="90"
+                    height="60"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="header-menu d-none d-xl-block">
+              <div class="main-menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="robotleague.html">RobotLeague</a></li>
+                  <li><a href="clr2024.html">CLR 2024</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-right d-flex align-items-center">
+              <div class="header-btn-cta">
+                <a href="contact.html" class="theme-btn"
+                  >Contact Us <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+              <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
+                <div class="mobile-nav-wrap">
+                  <div id="hamburger">
+                    <i class="fal fa-bars"></i>
+                  </div>
+                  <!-- mobile menu - responsive menu  -->
+                  <div class="mobile-nav">
+                    <button type="button" class="close-nav">
+                      <i class="fal fa-times-circle"></i>
+                    </button>
+                    <nav class="sidebar-nav">
+                      <ul class="metismenu" id="mobile-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="robotleague.html">RobotLeague</a></li>
+                        <li><a href="clr2024.html">CLR 2024</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </nav>
+
+                    <div class="action-bar">
+                      <a
+                        href="mailto:fsr.robotique@gmail.com
+                                  "
+                        ><i class="fal fa-envelope"></i>
+                        fsr.robotique@gmail.com</a
+                      >
+                      <a href="tel:+212645824844"
+                        ><i class="fal fa-phone"></i> 06 45 82 48 44</a
+                      >
+                      <a href="contact.html" class="d-btn theme-btn black"
+                        >Contact Us</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="overlay"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-
-    <section class="page-banner-wrap bg-cover" style="background-image: url('assets/img/team.png')">
-        <div class="banner-text">team</div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12 col-12">
-                    <div class="page-heading text-white">
-                        <div class="page-title">
-                            <h1>Our Team</h1>
-                        </div>
-                    </div>
-
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">team</li>
-                        </ol>
-                    </nav>
-                </div>
+    <section
+      class="page-banner-wrap bg-cover"
+      style="background-image: url('assets/img/team.png')"
+    >
+      <div class="banner-text">team</div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12 col-12">
+            <div class="page-heading text-white">
+              <div class="page-title">
+                <h1>Our Team</h1>
+              </div>
             </div>
+
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">team</li>
+              </ol>
+            </nav>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="our-team-wrapper section-padding">
-        <div class="container">
-            <div class="row align-items-center mb-40">
-                <div class="col-12 text-center col-md-8 offset-md-2">
-                    <div class="section-title">
-                        <p>Exclusive Members</p>
-                        <h1>Meet Our Team Members</h1>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center mb-40">
+          <div class="col-12 text-center col-md-8 offset-md-2">
+            <div class="section-title">
+              <p>Exclusive Members</p>
+              <h1>Meet Our Team Members</h1>
             </div>
-
-            <div class="team-members-list row">
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team1.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Ayman Bouaricha</h4>
-                            <p>President</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/ayman-bouaricha-03102416b"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/aym4nb"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member active">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team2.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Zakaria Essabbagh</h4>
-                            <p>Vice President</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/zakaria-essabbagh-6913a0281"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/essabbagh.zakaria/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team3.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Nouh Ait Chafi</h4>
-                            <p>Treasurer</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/nouh-ait-chafi-695b54274/"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/nouh_chafi/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team4.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Nour Zernine</h4>
-                            <p>General Secretary</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/nour-zernine-9b9020329/"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/nour_zernine/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team5.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>El Mehdi Khallouk</h4>
-                            <p>Technical Cell Head</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/el-mehdi-khallouk-2429992a8/"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/the_white_direwolf/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team6.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Hiba El Badaoui</h4>
-                            <p>Multimedia Cell Head</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/hiba-el-badaoui-9a5945293/"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/hibadaoui1/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team7.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Yasmine Bourouihiya</h4>
-                            <p>Communication & Sponsorship Cell Head</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/yasmine-bourouihiya-677954285/"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/jasmine_bour/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team8.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Nouhaila Tibari</h4>
-                            <p>Documentation Cell Head</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="#"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/its.nouhavibes/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team9.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Driss el Widadi</h4>
-                            <p>Projects Cell Head</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/driss-el-widadi-1085122b9/"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/wid_driss"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="single-team-member">
-                        <div class="member-img bg-cover bg-center"
-                            style="background-image: url('assets/img/team/team10.webp')">
-                        </div>
-                        <div class="member-bio">
-                            <h4>Hajar el Kassimi</h4>
-                            <p>Organizing Committee</p>
-                        </div>
-                        <div class="social-profile">
-                            <a href="https://www.linkedin.com/in/hajar-el-kassimi-5a2a7b2a4/"><i
-                                    class="fab fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/hajar_elk_4/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="team-members-list row">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team1.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Ayman Bouaricha</h4>
+                <p>President</p>
+              </div>
+              <div class="social-profile">
+                <a href="https://www.linkedin.com/in/ayman-bouaricha-03102416b"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/aym4nb"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member active">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team2.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Zakaria Essabbagh</h4>
+                <p>Vice President</p>
+              </div>
+              <div class="social-profile">
+                <a
+                  href="https://www.linkedin.com/in/zakaria-essabbagh-6913a0281"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/essabbagh.zakaria/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team3.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Nouh Ait Chafi</h4>
+                <p>Treasurer</p>
+              </div>
+              <div class="social-profile">
+                <a href="https://www.linkedin.com/in/nouh-ait-chafi-695b54274/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/nouh_chafi/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team4.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Nour Zernine</h4>
+                <p>General Secretary</p>
+              </div>
+              <div class="social-profile">
+                <a href="https://www.linkedin.com/in/nour-zernine-9b9020329/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/nour_zernine/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team5.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>El Mehdi Khallouk</h4>
+                <p>Technical Cell Head</p>
+              </div>
+              <div class="social-profile">
+                <a
+                  href="https://www.linkedin.com/in/el-mehdi-khallouk-2429992a8/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/the_white_direwolf/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team6.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Hiba El Badaoui</h4>
+                <p>Multimedia Cell Head</p>
+              </div>
+              <div class="social-profile">
+                <a href="https://www.linkedin.com/in/hiba-el-badaoui-9a5945293/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/hibadaoui1/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team7.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Yasmine Bourouihiya</h4>
+                <p>Communication & Sponsorship Cell Head</p>
+              </div>
+              <div class="social-profile">
+                <a
+                  href="https://www.linkedin.com/in/yasmine-bourouihiya-677954285/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/jasmine_bour/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team8.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Nouhaila Tibari</h4>
+                <p>Documentation Cell Head</p>
+              </div>
+              <div class="social-profile">
+                <a><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/its.nouhavibes/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team9.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Driss el Widadi</h4>
+                <p>Projects Cell Head</p>
+              </div>
+              <div class="social-profile">
+                <a href="https://www.linkedin.com/in/driss-el-widadi-1085122b9/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/wid_driss"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="single-team-member">
+              <div
+                class="member-img bg-cover bg-center"
+                style="background-image: url('assets/img/team/team10.webp')"
+              ></div>
+              <div class="member-bio">
+                <h4>Hajar el Kassimi</h4>
+                <p>Organizing Committee</p>
+              </div>
+              <div class="social-profile">
+                <a
+                  href="https://www.linkedin.com/in/hajar-el-kassimi-5a2a7b2a4/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="https://www.instagram.com/hajar_elk_4/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="funfact-wrapper bottom text-white">
-        <div class="container">
-            <div class="funfact-content-grid bg-cover" style="background-image: url('assets/img/funfact-line.png')">
-                <div class="single-funfact-item">
-                    <div class="icon">
-                        <i class="fal fa-gem"></i>
-                    </div>
-                    <h3>33</h3>
-                    <p>Project Completed</p>
-                </div>
-                <div class="single-funfact-item">
-                    <div class="icon">
-                        <i class="fal fa-drafting-compass"></i>
-                    </div>
-                    <h3>650</h3>
-                    <p>Alumni</p>
-                </div>
-                <div class="single-funfact-item">
-                    <div class="icon">
-                        <i class="fal fa-stars"></i>
-                    </div>
-                    <h3>13</h3>
-                    <p>Competition Orgranized</p>
-                </div>
-                <div class="single-funfact-item">
-                    <div class="icon">
-                        <i class="fal fa-trophy-alt"></i>
-                    </div>
-                    <h3>130</h3>
-                    <p>Prize</p>
-                </div>
+      <div class="container">
+        <div
+          class="funfact-content-grid bg-cover"
+          style="background-image: url('assets/img/funfact-line.png')"
+        >
+          <div class="single-funfact-item">
+            <div class="icon">
+              <i class="fal fa-gem"></i>
             </div>
+            <h3>33</h3>
+            <p>Project Completed</p>
+          </div>
+          <div class="single-funfact-item">
+            <div class="icon">
+              <i class="fal fa-drafting-compass"></i>
+            </div>
+            <h3>650</h3>
+            <p>Alumni</p>
+          </div>
+          <div class="single-funfact-item">
+            <div class="icon">
+              <i class="fal fa-stars"></i>
+            </div>
+            <h3>13</h3>
+            <p>Competition Orgranized</p>
+          </div>
+          <div class="single-funfact-item">
+            <div class="icon">
+              <i class="fal fa-trophy-alt"></i>
+            </div>
+            <h3>130</h3>
+            <p>Prize</p>
+          </div>
         </div>
-    </section> 
-
+      </div>
+    </section>
 
     <footer class="footer-2 footer-wrap">
-        <div class="client-brand-logo-wrap">
-            <div class="container">
-                <div class="brand-carousel-active pt-60 pb-60 d-flex justify-content-between owl-carousel">
-                    <div class="single-client">
-                        <img class="brand-logo" src="assets/img/brand/1.webp" alt="">
-                    </div>
-                    <div class="single-client">
-                        <img class="brand-logo" src="assets/img/brand/2.webp" alt="">
-                    </div>
-                    <div class="single-client">
-                        <img class="brand-logo" src="assets/img/brand/3.webp" alt="">
-                    </div>
-                    <div class="single-client">
-                        <img class="brand-logo" src="assets/img/brand/4.webp" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        
-    <div class="section-break" style="height: 0.6px; background-color: #e1e1e1;"></div>
-
-    <div class="footer-widgets">
+      <div class="client-brand-logo-wrap">
         <div class="container">
-            <div class="row justify-content-between text-center text-md-left">
-                
-                <!-- Logo and About Section -->
-                <div class="col-md-6 col-xl-4 col-12">
-                    <div class="single-footer-wid">
-                        <a href="index.html" class="footer-logo">
-                            <img src="assets/img/t3.png" alt="logo" style="width: 150px; height: auto;">
-                        </a>
-                        <p class="mt-4">Discover Rabat's Faculty of Sciences Robotics Club, a leader in robotics since 2008. Join us for innovation, advanced training, and global competition success. Redefine technology's boundaries with us!</p>
-                        <div class="social-link mt-3">
-                            <a href="https://www.facebook.com/RobotiqueFSR"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/robotique.fsr/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://www.linkedin.com/company/42950380/"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://www.youtube.com/channel/UCcb76rDoDUu5DBz-1CPXKUA"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Company Links Section -->
-                <div class="col-md-6 col-xl-4 col-12">
-                    <div class="single-footer-wid">
-                        <h4 class="wid-title">Company</h4>
-                        <ul class="footer-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="">Coming Soon</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Additional space or other columns as needed -->
-                <!-- Consider adding other sections like recent news, quick links, or a small contact form -->
-
+          <div
+            class="brand-carousel-active pt-60 pb-60 d-flex justify-content-between owl-carousel"
+          >
+            <div class="single-client">
+              <img class="brand-logo" src="assets/img/brand/1.webp" alt="" />
             </div>
-        </div>
-    </div>
-
-
-        <div class="footer-bottom">
-            <div class="container text-center">
-                <div class="footer-bottom-content">
-                    © 2024 <a href="index.html">Robotics Fsr</a>. All Rights Reserved
-                </div>
+            <div class="single-client">
+              <img class="brand-logo" src="assets/img/brand/2.webp" alt="" />
             </div>
+            <div class="single-client">
+              <img class="brand-logo" src="assets/img/brand/3.webp" alt="" />
+            </div>
+            <div class="single-client">
+              <img class="brand-logo" src="assets/img/brand/4.webp" alt="" />
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div
+        class="section-break"
+        style="height: 0.6px; background-color: #e1e1e1"
+      ></div>
+
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row justify-content-between text-center text-md-left">
+            <!-- Logo and About Section -->
+            <div class="col-md-6 col-xl-4 col-12">
+              <div class="single-footer-wid">
+                <a href="index.html" class="footer-logo">
+                  <img
+                    src="assets/img/t3.png"
+                    alt="logo"
+                    style="width: 150px; height: auto"
+                  />
+                </a>
+                <p class="mt-4">
+                  Discover Rabat's Faculty of Sciences Robotics Club, a leader
+                  in robotics since 2008. Join us for innovation, advanced
+                  training, and global competition success. Redefine
+                  technology's boundaries with us!
+                </p>
+                <div class="social-link mt-3">
+                  <a href="https://www.facebook.com/RobotiqueFSR"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://www.instagram.com/robotique.fsr/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="https://www.linkedin.com/company/42950380/"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a
+                    href="https://www.youtube.com/channel/UCcb76rDoDUu5DBz-1CPXKUA"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Company Links Section -->
+            <div class="col-md-6 col-xl-4 col-12">
+              <div class="single-footer-wid">
+                <h4 class="wid-title">Company</h4>
+                <ul class="footer-menu">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="robotleague.html">RobotLeague</a></li>
+                  <li><a href="clr2024.html">CLR 2024</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Additional space or other columns as needed -->
+            <!-- Consider adding other sections like recent news, quick links, or a small contact form -->
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container text-center">
+          <div class="footer-bottom-content">
+            © 2024 <a href="index.html">Robotics Fsr</a>. All Rights Reserved
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!--  ALl JS Plugins
@@ -534,6 +601,5 @@
     <script src="assets/js/timeline.min.js"></script>
     <script src="assets/js/ajax-mail.js"></script>
     <script src="assets/js/active.js"></script>
-</body>
-
+  </body>
 </html>
